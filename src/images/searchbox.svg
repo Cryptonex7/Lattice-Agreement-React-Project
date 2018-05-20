@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 351 58">
+  <defs>
+    <style>
+      .cls-5 {
+        fill: #f3f5f8;
+        stroke-width: 3px;
+      }
+
+      .cls-5, .cls-6 {
+        stroke: #999;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-6 {
+        fill: none;
+        stroke-width: 2px;
+      }
+    </style>
+  </defs>
+  <title>searchbar</title>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="Layer_2-2" data-name="Layer 2">
+      <g id="Search">
+        <g>
+          <rect class="cls-5" x="1.5" y="1.5" width="348" height="55" rx="27.5" ry="27.5"/>
+          <circle class="cls-6" cx="26.5" cy="26.5" r="9"/>
+          <line class="cls-6" x1="35" y1="35" x2="40.5" y2="40.5"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

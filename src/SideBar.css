@@ -1,0 +1,106 @@
+
+.cls-1 { fill: #4299ff;}
+.cls-2 { fill: #ffffff;}
+
+.st0{fill:none;}
+.st1{fill:#FFFFFF;}
+.st2{font-family:'EngraversGothicBT-Regular';}
+.st3{font-size:150px;}
+.st4{fill:#4299FF;}
+
+
+.sidenav {
+    height: 100%;
+    width: 25%;
+    float: left;
+    position: fixed;
+    display: block;
+    top: 0;
+    left: 0;
+    background: linear-gradient(to bottom, #150b26, #282047);
+    background: linear-gradient(to bottom, #110f36, #0b0b25);
+    
+    overflow-x: hidden;
+    
+   
+}
+
+.sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #f1f1f1;
+    display: block;
+}
+
+.sidenav a:hover {
+    background-color: #09010f71;
+
+}
+
+
+
+.tabs {
+    margin-top: 50%;
+    margin-left: 10%;
+}
+
+#logo {
+    width: 20%;
+    float: left;
+    
+}
+
+#lptype {
+    width: 75%;
+    margin-left: 10px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    enable-background:new 0 0 1149.1 150.8;
+
+}
+
+@media screen and (max-width: 960px) {
+    .sidenav a {font-size: 16px;}
+    #logo {
+        margin-left: 10%;  
+        width: 80%;  
+        }
+    #lptype {
+        margin-left: 10%;  
+        width: 80%;
+        margin-bottom: 3%; 
+    }
+
+}
+
+@media screen and (max-width: 620px) {
+    .sidenav a {font-size: 12px;}
+    #logo {
+        margin-left: 10%;  
+        width: 80%;  
+        }
+    #lptype {
+        margin-left: 10%;  
+        width: 80%;
+        margin-bottom: 3%; 
+    }
+
+}
+
+.side-head {
+    /* border-bottom: 3px #55556611 solid; */
+    padding: 20px;
+    background-color: #00000075;
+}
+
+@font-face {
+    font-family:'EngraversGothicBT-Regular';
+    src: url('./engraversgothicbt-regular.TTF');
+}
+
+@media screen and (max-width: 800px) {
+    .sidenav{ 
+        display: none;
+    }
+}

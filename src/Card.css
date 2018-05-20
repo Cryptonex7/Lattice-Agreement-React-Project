@@ -1,0 +1,44 @@
+.card{
+    background-color: white;
+    border: 0.5px #bbb solid;
+    border-top: 3px #4299ff solid;
+
+    padding: 20px;
+    border-radius: 5px;
+    color: #4299ff;
+    overflow: auto;
+    float: left;
+    margin: 2% 0; 
+}
+
+h3 {
+    color: #666;
+    margin: 0;
+}
+
+.user-data {
+    font-size: 0.5em;
+}
+
+.subtitle {
+    font-size: 1.3em;
+}
+
+.col-1 {
+    float: left;
+    margin-right: 10px;
+}
+
+.col-2{
+    float: right;
+    margin-left: 10px;
+    
+}
+
+@media screen and (max-width: 620px) {
+    .col-1, .col-2 {
+        clear: both;
+        float: none;
+        margin-left: 0;
+    }
+}

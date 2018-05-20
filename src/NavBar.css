@@ -1,0 +1,224 @@
+.nav-container{
+    margin-left: 25%;   
+    position: sticky;
+    top:0;
+}
+.navbar {
+    height: 65px;
+    background-color: white;
+    padding: 5px;
+    padding-bottom: 0;
+    display: grid; 
+}
+
+.cls-3, .cls-4 {
+    fill: none;
+    stroke: #999;
+    stroke-miterlimit: 10;
+}
+.cls-3 {
+    stroke-width: 2.95px;
+}
+.cls-4 {
+    stroke-width: 3px;
+}
+
+.menu-btn {
+    width: 50px;
+    border: 0px red solid;
+    vertical-align: middle;
+    margin: 8px;
+    margin-bottom:0; 
+    background-color: white;
+    float: left;
+
+}
+
+#app-title {
+    
+    vertical-align: middle;
+    font-size: 2em;
+    margin-top: 12px;
+    color: #333; 
+    float: left;
+}
+
+.app-title {
+    grid-column:  1 / span 2;
+    
+}
+
+.search {
+    margin-top: 5px;
+    grid-column: 3 / span 1;
+}
+
+
+#search {
+    background-image: url("./images/searchbox.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 40px;    
+    margin-top: 6px;;
+    border: none;
+    border-radius:50px;
+    padding-right: 30px;
+    padding-left: 40px;
+    font-size: 1.2em;
+}
+
+.quick-btn {
+    grid-column: 4 / span 1;
+    text-align: right;
+}
+
+#quick-btn {
+    background-color: #4299ff;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 40px;    
+    margin-top: 10px;
+    margin-right: 23px;;
+    border: none;
+    border-radius:50px;
+    padding-right: 40px;
+    padding-left: 40px;
+    font-size: 1.2em;
+}    
+
+@media screen and (max-width: 1080px) {
+    .search{
+        display: none;
+    }
+}
+
+
+.shadow-strip {
+    background: linear-gradient(to right, #b9bbbd, #f5f7f9);
+    height: 3px;
+
+}
+
+.nav-tabs {
+    height: 38px;
+    background-color: white;
+    display:grid;
+    padding-left: 5px;    
+}
+
+.tab {
+    text-decoration: none;
+    margin:0 2px;    
+    text-align: center;
+    vertical-align: middle;
+    line-height: 35px;
+    height: 100%;
+    color: #666;
+    border-bottom: 3px #4299ff00 solid;
+
+    
+}
+
+.tab:hover { background-color: #f3f5f8;
+    color: #333;
+    cursor: pointer;
+    /* transition: background-color 0.7s; */
+}
+
+.active {
+    border-bottom: 3px #4299ff solid;
+    color: #222;
+    transition: border 0.8s ;
+
+}
+
+.seventh-1 {
+    grid-column: 1 /span 1;
+    /* grid-row: 9 / span 2; */
+    
+}
+.seventh-2 {
+    grid-column: 2 /span 1;
+    /* grid-row: 9 / span 2; */
+    
+}
+.seventh-3 {
+    grid-column: 3 /span 1;
+    /* grid-row: 9 / span 2; */
+    
+}
+.seventh-4 {
+    grid-column: 4 /span 1;
+    /* grid-row: 9 / span 2; */
+    
+}
+.seventh-5 {
+    grid-column: 5 /span 1;
+    /* grid-row: 9 / span 2; */
+    
+}
+.seventh-6 {
+    grid-column: 6 /span 1;
+    /* grid-row: 9 / span 2; */
+    
+}
+
+@media screen and (max-width: 800px) {
+    .nav-container{
+        margin-left: 0;   
+    }
+    .app-title{
+        font-size: 1.2em; 
+        grid-column: 1 /span 3;  
+    }
+    .search {
+        grid-column: 3 /span 1;
+       display: none;
+        
+    }
+    .quick-btn {
+        grid-column: 4 /span 1;
+        height: 40px;    
+        margin-top: 6px;;
+        border-radius:50px;
+        padding-right: 0px;
+        padding-left: 0px;
+        font-size: 1.0em;
+    }
+}
+
+@media screen and (max-width: 560px) {
+    .app-title {
+        font-size: 0.5em;
+    }
+    #app-title{
+        margin-top: 10px;
+    }
+    .menu-btn {
+        width: 35px;
+        margin-top: 6px;
+        
+    }
+    #quick-btn {
+        grid-column: 4 /span 1;
+        height: 20px;    
+        margin-top: 0px;
+        margin-right: 6px;;
+        text-align: center; 
+        border-radius:50px;
+        font-size: 0.3em;
+        
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+    .navbar {
+        height: 40px;
+    }   
+    .tab {
+        font-size: 8px;
+        line-height: 28px;
+    }    
+    .nav-tabs {
+        height: 30px;
+    }
+}
